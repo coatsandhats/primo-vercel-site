@@ -8613,13 +8613,13 @@ function create_fragment$6(ctx) {
 				image: { "alt": "", "url": "" },
 				title: "cohat",
 				description: "Downstream hosting of cohat.net",
-				heading: "test email\ndon't respond\n",
+				heading: "test email please ignore",
 				form: {
-					"endpoint": "https://formsubmit.co/your@email.com",
+					"endpoint": "https://formsubmit.co/lc@cohat.com",
 					"placeholder": "Email address",
 					"button_label": "Subscribe",
-					"error_message": "Uh oh, something wen't wrong.",
-					"success_message": "Thanks for signing up! I promise not to spam you :)"
+					"success_message": "Thanks for signing up! I promise not to spam you :)",
+					"error_message": "Uh oh, something wen't wrong."
 				},
 				graphics: {
 					"left": {
