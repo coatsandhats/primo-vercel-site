@@ -3,6 +3,14 @@
 
 <head>
     <script src="https://www.google.com/recaptcha/api.js?render=6LdJgPYlAAAAANVynb4ZPU-WMe__Lvyp6O6A5uvk"></script>
+    <script>
+   grecaptcha.ready(function() {
+       grecaptcha.execute('6LdJgPYlAAAAANVynb4ZPU-WMe__Lvyp6O6A5uvk', {action: 'homepage'})
+       .then(function(token) {
+         document.getElementById('captchaResponse').value = token;
+       });
+     });
+</script>
     <meta name="generator" content="Primo" />
     <title>cohat</title><!-- HEAD_svelte-q47lvn_START -->
     <link rel="shortcut icon" type="image/jpg" sizes="32x32" href="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1518050708280dont.jpg">
