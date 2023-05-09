@@ -8564,12 +8564,15 @@ function create_fragment$6(ctx) {
 				site_nav: [
 					{
 						"link": {
-							"url": "https://primo.cohat.net/",
+							"url": "https://primo.cohat.net/cohat",
 							"label": "Home"
 						}
 					},
 					{
-						"link": { "url": "/about", "label": "About" }
+						"link": {
+							"url": "https://pri-ver.pages.dev/about",
+							"label": "About"
+						}
 					},
 					{
 						"link": { "url": "/blog", "label": "Blog" }
