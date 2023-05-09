@@ -4468,8 +4468,8 @@ function create_fragment$5(ctx) {
 					},
 					{
 						"link": {
-							"label": "Page -> Article(/article)",
-							"url": "/article"
+							"url": "/article",
+							"label": "Page -> Article(/article)"
 						}
 					}
 				]
