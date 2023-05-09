@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdJgPYlAAAAANVynb4ZPU-WMe__Lvyp6O6A5uvk"></script>
     <meta name="generator" content="Primo" />
     <title>cohat</title><!-- HEAD_svelte-q47lvn_START -->
     <link rel="shortcut icon" type="image/jpg" sizes="32x32" href="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1518050708280dont.jpg">
@@ -424,6 +425,7 @@
                 <h1 class="headline svelte-1goivyf">test email please ignore</h1>
                 <form class="svelte-1goivyf"><label class="svelte-1goivyf"><input required name="email" type="text" placeholder="Email address" class="svelte-1goivyf"></label>
                     <button class="button svelte-1goivyf" type="submit">Subscribe</button>
+                    <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
                 </form>
                 <img class="graphic left svelte-1goivyf" src="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1518050708280dont.jpg" alt="space man">
                 <img class="graphic right svelte-1goivyf" src="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1682282260046sdprof12.PNG" alt="satellite">
@@ -510,6 +512,15 @@
             hydrate: true,
         })
     </script>
+    <script>
+   grecaptcha.ready(function() {
+       grecaptcha.execute('YOUR_SITE_KEY', {action: 'homepage'})
+       .then(function(token) {
+         document.getElementById('captchaResponse').value = token;
+       });
+     });
+</script>
+
 </body>
 
 </html>
