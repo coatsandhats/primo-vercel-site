@@ -4449,7 +4449,10 @@ function create_fragment$5(ctx) {
 						}
 					},
 					{
-						"link": { "label": "Docs", "url": "/docs" }
+						"link": {
+							"url": "https://primo.cohat.net/docs",
+							"label": "Docs"
+						}
 					}
 				]
 			}
