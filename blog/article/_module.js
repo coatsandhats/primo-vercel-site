@@ -8386,7 +8386,7 @@ function create_fragment$7(ctx) {
 				site_nav: [
 					{
 						"link": {
-							"url": "https://ver.cohat.net",
+							"url": "https://ver.cohat.net/",
 							"label": "Home"
 						}
 					},
@@ -8410,14 +8410,14 @@ function create_fragment$7(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://dg.cohat.net",
+							"url": "https://dg.cohat.net/",
 							"label": "DG.COHAT.NET"
 						}
 					},
 					{
 						"link": {
-							"label": "STATIC.COHAT.NET",
-							"url": "https://static.cohat.net"
+							"url": "https://static.cohat.net/",
+							"label": "STATIC.COHAT.NET"
 						}
 					}
 				]
