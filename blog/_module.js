@@ -4453,6 +4453,12 @@ function create_fragment$5(ctx) {
 							"url": "https://pri-ver.pages.dev/docs",
 							"label": "Docs"
 						}
+					},
+					{
+						"link": {
+							"label": "CUSTOM PAGE",
+							"url": "https://pri-ver.pages.dev/docs/hello"
+						}
 					}
 				]
 			}
