@@ -8576,7 +8576,7 @@ function create_fragment$6(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/blog",
+							"url": "https://ver.cohat/blog",
 							"label": "Blog "
 						}
 					},
@@ -8597,6 +8597,12 @@ function create_fragment$6(ctx) {
 							"url": "https://static.cohat.net/",
 							"label": "STATIC.COHAT.NET"
 						}
+					},
+					{
+						"link": {
+							"label": "Page -> Article(/article)",
+							"url": "/article"
+						}
 					}
 				]
 			}
@@ -8615,7 +8621,7 @@ function create_fragment$6(ctx) {
 				description: "Downstream hosting of cohat.net",
 				heading: "test email please ignore",
 				form: {
-					"endpoint": "https://formsubmit.co/lc@cohat.com",
+					"endpoint": "https://getform.io/f/7b361a2f-ce34-40eb-a0c1-0e64095a896d",
 					"placeholder": "Email address",
 					"button_label": "Subscribe",
 					"success_message": "Thanks for signing up! I promise not to spam you :)",

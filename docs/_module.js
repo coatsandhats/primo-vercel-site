@@ -3974,7 +3974,7 @@ function create_fragment$4(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/blog",
+							"url": "https://ver.cohat/blog",
 							"label": "Blog "
 						}
 					},
@@ -3994,6 +3994,12 @@ function create_fragment$4(ctx) {
 						"link": {
 							"url": "https://static.cohat.net/",
 							"label": "STATIC.COHAT.NET"
+						}
+					},
+					{
+						"link": {
+							"label": "Page -> Article(/article)",
+							"url": "/article"
 						}
 					}
 				]
