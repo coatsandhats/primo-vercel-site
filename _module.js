@@ -7261,7 +7261,7 @@ function create_if_block_5(ctx) {
 			this.h();
 		},
 		h() {
-			attr(div, "class", "message error svelte-o5ike2");
+			attr(div, "class", "message error svelte-1goivyf");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div, anchor);
@@ -7285,7 +7285,7 @@ function create_if_block_5(ctx) {
 	};
 }
 
-// (180:22) 
+// (181:22) 
 function create_if_block_4$1(ctx) {
 	let div;
 	let t_value = /*form*/ ctx[1].success_message + "";
@@ -7306,7 +7306,7 @@ function create_if_block_4$1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(div, "class", "message svelte-o5ike2");
+			attr(div, "class", "message svelte-1goivyf");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div, anchor);
@@ -7330,7 +7330,7 @@ function create_if_block_4$1(ctx) {
 	};
 }
 
-// (167:2) {#if !submitted && !error}
+// (168:2) {#if !submitted && !error}
 function create_if_block_2$1(ctx) {
 	let form_1;
 	let label;
@@ -7391,11 +7391,11 @@ function create_if_block_2$1(ctx) {
 			attr(input, "name", "email");
 			attr(input, "type", "text");
 			attr(input, "placeholder", input_placeholder_value = /*form*/ ctx[1].placeholder);
-			attr(input, "class", "svelte-o5ike2");
-			attr(label, "class", "svelte-o5ike2");
-			attr(button, "class", "button svelte-o5ike2");
+			attr(input, "class", "svelte-1goivyf");
+			attr(label, "class", "svelte-1goivyf");
+			attr(button, "class", "button svelte-1goivyf");
 			attr(button, "type", "submit");
-			attr(form_1, "class", "svelte-o5ike2");
+			attr(form_1, "class", "svelte-1goivyf");
 		},
 		m(target, anchor) {
 			insert_hydration(target, form_1, anchor);
@@ -7460,7 +7460,7 @@ function create_if_block_2$1(ctx) {
 	};
 }
 
-// (175:8) {:else}
+// (176:8) {:else}
 function create_else_block$1(ctx) {
 	let icon;
 	let current;
@@ -7493,7 +7493,7 @@ function create_else_block$1(ctx) {
 	};
 }
 
-// (173:8) {#if !submitting}
+// (174:8) {#if !submitting}
 function create_if_block_3$1(ctx) {
 	let t_value = /*form*/ ctx[1].button_label + "";
 	let t;
@@ -7519,7 +7519,7 @@ function create_if_block_3$1(ctx) {
 	};
 }
 
-// (185:2) {#if graphics.left}
+// (186:2) {#if graphics.left}
 function create_if_block_1$2(ctx) {
 	let img;
 	let img_src_value;
@@ -7535,7 +7535,7 @@ function create_if_block_1$2(ctx) {
 			this.h();
 		},
 		h() {
-			attr(img, "class", "graphic left svelte-o5ike2");
+			attr(img, "class", "graphic left svelte-1goivyf");
 			if (!src_url_equal(img.src, img_src_value = /*graphics*/ ctx[2].left.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*graphics*/ ctx[2].left.alt);
 		},
@@ -7557,7 +7557,7 @@ function create_if_block_1$2(ctx) {
 	};
 }
 
-// (188:2) {#if graphics.right}
+// (189:2) {#if graphics.right}
 function create_if_block$3(ctx) {
 	let img;
 	let img_src_value;
@@ -7573,7 +7573,7 @@ function create_if_block$3(ctx) {
 			this.h();
 		},
 		h() {
-			attr(img, "class", "graphic right svelte-o5ike2");
+			attr(img, "class", "graphic right svelte-1goivyf");
 			if (!src_url_equal(img.src, img_src_value = /*graphics*/ ctx[2].right.url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*graphics*/ ctx[2].right.alt);
 		},
@@ -7662,10 +7662,10 @@ function create_fragment$3(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h1, "class", "headline svelte-o5ike2");
-			attr(section, "class", "section-container svelte-o5ike2");
-			attr(div0, "class", "component svelte-o5ike2");
-			attr(div1, "class", "section svelte-o5ike2");
+			attr(h1, "class", "headline svelte-1goivyf");
+			attr(section, "class", "section-container svelte-1goivyf");
+			attr(div0, "class", "component svelte-1goivyf");
+			attr(div1, "class", "section svelte-1goivyf");
 			attr(div1, "id", "section-c62f1f5f-0c9b-4246-95df-78c070afbc64");
 		},
 		m(target, anchor) {
@@ -8564,14 +8564,14 @@ function create_fragment$6(ctx) {
 				site_nav: [
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/",
+							"url": "https://ver.cohat.net",
 							"label": "Home"
 						}
 					},
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/about",
-							"label": "About"
+							"url": "https://ver.cohat.net/about",
+							"label": "About (Excalidraw)"
 						}
 					},
 					{
@@ -8588,8 +8588,14 @@ function create_fragment$6(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/docs/hello",
-							"label": "CUSTOM PAGE"
+							"url": "https://dg.cohat.net",
+							"label": "DG.COHAT.NET"
+						}
+					},
+					{
+						"link": {
+							"label": "STATIC.COHAT.NET",
+							"url": "https://static.cohat.net"
 						}
 					}
 				]

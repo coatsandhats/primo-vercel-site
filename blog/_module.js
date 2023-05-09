@@ -4432,14 +4432,14 @@ function create_fragment$5(ctx) {
 				site_nav: [
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/",
+							"url": "https://ver.cohat.net",
 							"label": "Home"
 						}
 					},
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/about",
-							"label": "About"
+							"url": "https://ver.cohat.net/about",
+							"label": "About (Excalidraw)"
 						}
 					},
 					{
@@ -4456,8 +4456,14 @@ function create_fragment$5(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/docs/hello",
-							"label": "CUSTOM PAGE"
+							"url": "https://dg.cohat.net",
+							"label": "DG.COHAT.NET"
+						}
+					},
+					{
+						"link": {
+							"label": "STATIC.COHAT.NET",
+							"url": "https://static.cohat.net"
 						}
 					}
 				]
