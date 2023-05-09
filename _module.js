@@ -8564,7 +8564,7 @@ function create_fragment$6(ctx) {
 				site_nav: [
 					{
 						"link": {
-							"url": "https://ver.cohat.net",
+							"url": "https://ver.cohat.net/",
 							"label": "Home"
 						}
 					},
@@ -8576,7 +8576,7 @@ function create_fragment$6(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://pri-ver.pages.dev/blog",
+							"url": "https://ver.cohat/blog",
 							"label": "Blog "
 						}
 					},
@@ -8588,14 +8588,20 @@ function create_fragment$6(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://dg.cohat.net",
+							"url": "https://dg.cohat.net/",
 							"label": "DG.COHAT.NET"
 						}
 					},
 					{
 						"link": {
-							"label": "STATIC.COHAT.NET",
-							"url": "https://static.cohat.net"
+							"url": "https://static.cohat.net/",
+							"label": "STATIC.COHAT.NET"
+						}
+					},
+					{
+						"link": {
+							"label": "Page -> Article(/article)",
+							"url": "/article"
 						}
 					}
 				]
@@ -8613,13 +8619,13 @@ function create_fragment$6(ctx) {
 				image: { "alt": "", "url": "" },
 				title: "cohat",
 				description: "Downstream hosting of cohat.net",
-				heading: "test email\ndon't respond\n",
+				heading: "test email please ignore",
 				form: {
-					"endpoint": "https://formsubmit.co/your@email.com",
+					"endpoint": "https://getform.io/f/7b361a2f-ce34-40eb-a0c1-0e64095a896d",
 					"placeholder": "Email address",
 					"button_label": "Subscribe",
-					"error_message": "Uh oh, something wen't wrong.",
-					"success_message": "Thanks for signing up! I promise not to spam you :)"
+					"success_message": "Thanks for signing up! I promise not to spam you :)",
+					"error_message": "Uh oh, something wen't wrong."
 				},
 				graphics: {
 					"left": {
