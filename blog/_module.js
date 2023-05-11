@@ -4473,8 +4473,8 @@ function create_fragment$5(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://dg.cohat.net/",
-							"label": "DG.COHAT.NET"
+							"url": "https://den.cohat.net/",
+							"label": "DEN.COHAT.NET"
 						}
 					},
 					{
