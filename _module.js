@@ -8004,12 +8004,6 @@ function create_fragment$4(ctx) {
 				site_nav: [
 					{
 						"link": {
-							"url": "https://ver.cohat.net/",
-							"label": "Home"
-						}
-					},
-					{
-						"link": {
 							"url": "https://ver.cohat.net/about",
 							"label": "About (Excalidraw)"
 						}
