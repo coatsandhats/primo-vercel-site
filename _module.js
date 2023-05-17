@@ -8282,14 +8282,14 @@ function create_fragment$5(ctx) {
 				},
 				image: {
 					"alt": "",
-					"src": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"size": null
+					"src": "https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1684272112827handeye.jpg",
+					"url": "https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1684272112827handeye.jpg",
+					"size": 104
 				},
 				title: "cohat",
 				description: "Downstream hosting of cohat.net",
 				superhead: "JUNE 3, 2023 ",
-				heading: "The Title of this Article"
+				heading: "SUPROFOR.NET"
 			}
 		});
 
