@@ -7943,7 +7943,7 @@ function create_if_block$4(ctx) {
 		h() {
 			if (!src_url_equal(img.src, img_src_value = /*image*/ ctx[0].url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*image*/ ctx[0].alt);
-			attr(img, "class", "svelte-mkdke");
+			attr(img, "class", "svelte-y51plu");
 		},
 		m(target, anchor) {
 			insert_hydration(target, img, anchor);
@@ -7992,7 +7992,7 @@ function create_fragment$4(ctx) {
 			meta = element("meta");
 			t1 = space();
 			script = element("script");
-			t2 = text("DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'primo.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
+			t2 = text("DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'ver.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
 			t3 = space();
 			span = element("span");
 			t4 = text(/*superhead*/ ctx[1]);
@@ -8017,7 +8017,7 @@ function create_fragment$4(ctx) {
 			t1 = claim_space(header_nodes);
 			script = claim_element(header_nodes, "SCRIPT", { type: true });
 			var script_nodes = children(script);
-			t2 = claim_text(script_nodes, "DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'primo.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
+			t2 = claim_text(script_nodes, "DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'ver.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
 			script_nodes.forEach(detach);
 			t3 = claim_space(header_nodes);
 			span = claim_element(header_nodes, "SPAN", { class: true });
@@ -8041,9 +8041,9 @@ function create_fragment$4(ctx) {
 			attr(meta, "name", "LC_CO");
 			attr(meta, "content", "DISCOURSE_USERNAME");
 			attr(script, "type", "text/javascript");
-			attr(span, "class", "superhead svelte-mkdke");
-			attr(h1, "class", "heading svelte-mkdke");
-			attr(header, "class", "section-container svelte-mkdke");
+			attr(span, "class", "superhead svelte-y51plu");
+			attr(h1, "class", "heading svelte-y51plu");
+			attr(header, "class", "section-container svelte-y51plu");
 			attr(div1, "class", "component");
 			attr(div2, "class", "section");
 			attr(div2, "id", "section-26d2d575-5011-4b59-82f5-50a059a92282");
