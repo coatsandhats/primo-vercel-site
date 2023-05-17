@@ -3845,77 +3845,112 @@ function create_if_block$3(ctx) {
 }
 
 function create_fragment$3(ctx) {
+	let div2;
 	let div1;
-	let div0;
 	let header;
-	let span;
+	let div0;
 	let t0;
+	let meta;
 	let t1;
-	let h1;
+	let script;
 	let t2;
 	let t3;
+	let span;
+	let t4;
+	let t5;
+	let h1;
+	let t6;
+	let t7;
 	let if_block = /*image*/ ctx[0].url && create_if_block$3(ctx);
 
 	return {
 		c() {
+			div2 = element("div");
 			div1 = element("div");
-			div0 = element("div");
 			header = element("header");
-			span = element("span");
-			t0 = text(/*superhead*/ ctx[1]);
+			div0 = element("div");
+			t0 = space();
+			meta = element("meta");
 			t1 = space();
-			h1 = element("h1");
-			t2 = text(/*heading*/ ctx[2]);
+			script = element("script");
+			t2 = text("DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'primo.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
 			t3 = space();
+			span = element("span");
+			t4 = text(/*superhead*/ ctx[1]);
+			t5 = space();
+			h1 = element("h1");
+			t6 = text(/*heading*/ ctx[2]);
+			t7 = space();
 			if (if_block) if_block.c();
 			this.h();
 		},
 		l(nodes) {
-			div1 = claim_element(nodes, "DIV", { class: true, id: true });
+			div2 = claim_element(nodes, "DIV", { class: true, id: true });
+			var div2_nodes = children(div2);
+			div1 = claim_element(div2_nodes, "DIV", { class: true });
 			var div1_nodes = children(div1);
-			div0 = claim_element(div1_nodes, "DIV", { class: true });
-			var div0_nodes = children(div0);
-			header = claim_element(div0_nodes, "HEADER", { class: true });
+			header = claim_element(div1_nodes, "HEADER", { class: true });
 			var header_nodes = children(header);
+			div0 = claim_element(header_nodes, "DIV", { id: true });
+			children(div0).forEach(detach);
+			t0 = claim_space(header_nodes);
+			meta = claim_element(header_nodes, "META", { name: true, content: true });
+			t1 = claim_space(header_nodes);
+			script = claim_element(header_nodes, "SCRIPT", { type: true });
+			var script_nodes = children(script);
+			t2 = claim_text(script_nodes, "DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'primo.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
+			script_nodes.forEach(detach);
+			t3 = claim_space(header_nodes);
 			span = claim_element(header_nodes, "SPAN", { class: true });
 			var span_nodes = children(span);
-			t0 = claim_text(span_nodes, /*superhead*/ ctx[1]);
+			t4 = claim_text(span_nodes, /*superhead*/ ctx[1]);
 			span_nodes.forEach(detach);
-			t1 = claim_space(header_nodes);
+			t5 = claim_space(header_nodes);
 			h1 = claim_element(header_nodes, "H1", { class: true });
 			var h1_nodes = children(h1);
-			t2 = claim_text(h1_nodes, /*heading*/ ctx[2]);
+			t6 = claim_text(h1_nodes, /*heading*/ ctx[2]);
 			h1_nodes.forEach(detach);
-			t3 = claim_space(header_nodes);
+			t7 = claim_space(header_nodes);
 			if (if_block) if_block.l(header_nodes);
 			header_nodes.forEach(detach);
-			div0_nodes.forEach(detach);
 			div1_nodes.forEach(detach);
+			div2_nodes.forEach(detach);
 			this.h();
 		},
 		h() {
+			attr(div0, "id", "discourse-comments");
+			attr(meta, "name", "LC_CO");
+			attr(meta, "content", "DISCOURSE_USERNAME");
+			attr(script, "type", "text/javascript");
 			attr(span, "class", "superhead svelte-mkdke");
 			attr(h1, "class", "heading svelte-mkdke");
 			attr(header, "class", "section-container svelte-mkdke");
-			attr(div0, "class", "component");
-			attr(div1, "class", "section");
-			attr(div1, "id", "section-d4de1d1a-529c-43ec-aa69-fa8489354098");
+			attr(div1, "class", "component");
+			attr(div2, "class", "section");
+			attr(div2, "id", "section-d4de1d1a-529c-43ec-aa69-fa8489354098");
 		},
 		m(target, anchor) {
-			insert_hydration(target, div1, anchor);
-			append_hydration(div1, div0);
-			append_hydration(div0, header);
-			append_hydration(header, span);
-			append_hydration(span, t0);
+			insert_hydration(target, div2, anchor);
+			append_hydration(div2, div1);
+			append_hydration(div1, header);
+			append_hydration(header, div0);
+			append_hydration(header, t0);
+			append_hydration(header, meta);
 			append_hydration(header, t1);
-			append_hydration(header, h1);
-			append_hydration(h1, t2);
+			append_hydration(header, script);
+			append_hydration(script, t2);
 			append_hydration(header, t3);
+			append_hydration(header, span);
+			append_hydration(span, t4);
+			append_hydration(header, t5);
+			append_hydration(header, h1);
+			append_hydration(h1, t6);
+			append_hydration(header, t7);
 			if (if_block) if_block.m(header, null);
 		},
 		p(ctx, [dirty]) {
-			if (dirty & /*superhead*/ 2) set_data(t0, /*superhead*/ ctx[1]);
-			if (dirty & /*heading*/ 4) set_data(t2, /*heading*/ ctx[2]);
+			if (dirty & /*superhead*/ 2) set_data(t4, /*superhead*/ ctx[1]);
+			if (dirty & /*heading*/ 4) set_data(t6, /*heading*/ ctx[2]);
 
 			if (/*image*/ ctx[0].url) {
 				if (if_block) {
@@ -3933,7 +3968,7 @@ function create_fragment$3(ctx) {
 		i: noop,
 		o: noop,
 		d(detaching) {
-			if (detaching) detach(div1);
+			if (detaching) detach(div2);
 			if (if_block) if_block.d();
 		}
 	};
