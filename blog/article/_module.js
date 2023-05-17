@@ -8409,32 +8409,14 @@ function create_fragment$7(ctx) {
 					},
 					{
 						"link": {
-							"url": "https://ver.cohat/blog",
-							"label": "Blog "
-						}
-					},
-					{
-						"link": {
-							"url": "https://pri-ver.pages.dev/docs",
-							"label": "Docs"
-						}
-					},
-					{
-						"link": {
 							"url": "https://den.cohat.net/",
-							"label": "DEN.COHAT.NET"
+							"label": "GARDEN"
 						}
 					},
 					{
 						"link": {
-							"url": "https://static.cohat.net/",
-							"label": "STATIC.COHAT.NET"
-						}
-					},
-					{
-						"link": {
-							"url": "/article",
-							"label": "Page -> Article(/article)"
+							"url": "https://meta.suprofor.net/",
+							"label": "SUPROFOR.NET"
 						}
 					}
 				]
