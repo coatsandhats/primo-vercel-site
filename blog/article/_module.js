@@ -3873,7 +3873,7 @@ function create_fragment$3(ctx) {
 			meta = element("meta");
 			t1 = space();
 			script = element("script");
-			t2 = text("DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'ver.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
+			t2 = text("DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'https://ver.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
 			t3 = space();
 			span = element("span");
 			t4 = text(/*superhead*/ ctx[1]);
@@ -3898,7 +3898,7 @@ function create_fragment$3(ctx) {
 			t1 = claim_space(header_nodes);
 			script = claim_element(header_nodes, "SCRIPT", { type: true });
 			var script_nodes = children(script);
-			t2 = claim_text(script_nodes, "DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'ver.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
+			t2 = claim_text(script_nodes, "DiscourseEmbed = {\n    discourseUrl: 'https://meta.suprofor.net/',\n    discourseEmbedUrl: 'https://ver.cohat.net',\n    // className: 'CLASS_NAME',\n  };\n\n  (function() {\n    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;\n    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';\n    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);\n  })();");
 			script_nodes.forEach(detach);
 			t3 = claim_space(header_nodes);
 			span = claim_element(header_nodes, "SPAN", { class: true });
