@@ -8170,6 +8170,9 @@ function create_fragment$5(ctx) {
 							"url": "https://meta.suprofor.net/",
 							"label": "SUPROFOR.NET"
 						}
+					},
+					{
+						"link": { "url": "/test", "label": "test" }
 					}
 				]
 			}

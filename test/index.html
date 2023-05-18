@@ -3,12 +3,12 @@
 
 <head>
     <meta name="generator" content="Primo" />
-    <title></title><!-- HEAD_svelte-q47lvn_START -->
+    <title>cohat</title><!-- HEAD_svelte-q47lvn_START -->
     <link rel="shortcut icon" type="image/jpg" sizes="32x32" href="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1518050708280dont.jpg">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.bunny.net/css?family=merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <meta name="description" content="">
+    <meta name="description" content="Downstream hosting of cohat.net">
     <style>
         /* Reset & standardize default styles */
         @import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css") layer;
@@ -170,20 +170,34 @@
             top: 1rem
         }
 
-        .clear.svelte-6ism9x {
-            clear: both
+        #discourse-comments.svelte-1eiqqmz {
+            height: 100%
         }
 
-        .excalidraw.svelte-6ism9x {
-            float: left;
-            margin-right: 20px
+        .section-container.svelte-1eiqqmz {
+            display: grid;
+            place-items: center;
+            padding: 2rem 2rem 1rem 2rem
+        }
+
+        .superhead.svelte-1eiqqmz {
+            font-size: 3rem;
+            color: var(--color-accent2);
+            font-weight: 500;
+            margin-bottom: .5rem
+        }
+
+        @media(min-width:700px) {
+            img.svelte-1eiqqmz {
+                max-width: 750px
+            }
         }
     </style>
 </head>
 
 <body id="page">
 
-    <div class="section" id="section-bf04fc0e-a5f2-4e71-85e1-2d5571beadbc">
+    <div class="section" id="section-6ebf1794-2e22-4aac-b87d-687c6cec3596">
         <div class="component">
             <header class="section-container svelte-fok53m">
                 <div class="desktop-nav svelte-fok53m"><a href="/" class="logo svelte-fok53m"><span id="prefix-url" class="svelte-fok53m">ver.</span>cohat.net</a>
@@ -205,11 +219,30 @@
             </header>
         </div>
     </div>
-    <div class="section" id="section-5a2ae4b8-b527-4446-a0f7-e53061eb0dfb">
+    <div class="section" id="section-19e8d3fe-3a29-4e6d-8215-5d5b7f94ef7c">
         <div class="component">
-            <div class="excalidraw svelte-6ism9x" style="resize:both; overflow:auto; width:500px; height:500px;"><iframe title="excalclaymate" align="left" src="https://coatsandhats.github.io/excalidraw-claymate" style="width: 100%;height: 100%;float: left;"></iframe></div>
-            <div class="excalidraw svelte-6ism9x" style="resize: both; overflow:auto; width:500px; height:500px;"><iframe title="excal" align="right" src="https://excalidraw.com/#room=a6d43c3ba0bf02955934,f0fU0OVKsR4RO3tS02n6dg" style="width: 100%;height: 100%;float: left;"></iframe></div>
-            <div class="clear svelte-6ism9x"></div>
+            <header class="section-container svelte-1eiqqmz">
+                <div id="discourse-comments" class="svelte-1eiqqmz"></div>
+                <meta name="discourse-username" content="LC_CO">
+
+                <script type="text/javascript">
+                    DiscourseEmbed = {
+                        discourseUrl: 'https://meta.suprofor.net/',
+                        discourseEmbedUrl: 'https://ver.cohat.net',
+                        // className: 'CLASS_NAME',
+                    };
+
+                    (function() {
+                        var d = document.createElement('script');
+                        d.type = 'text/javascript';
+                        d.async = true;
+                        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                    })();
+                </script>
+                <h1 class="superhead svelte-1eiqqmz">SUPROFOR.NET</h1>
+                <img src="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1684272112827handeye.jpg" alt="" class="svelte-1eiqqmz">
+            </header>
         </div>
     </div>
 
