@@ -8170,6 +8170,12 @@ function create_fragment$5(ctx) {
 							"url": "https://meta.suprofor.net/",
 							"label": "SUPROFOR.NET"
 						}
+					},
+					{
+						"link": {
+							"url": "https://meta.suprofor.net/session/sso_provider?sso=bm9uY2U9MTIzNDUmcmV0dXJuX3Nzb191cmw9aHR0cHM6Ly92ZXIuY29oYXQubmV0&sig=def97d4056dea027d86b245cf392fd79cd0f5ee63d6fcc55951877ba9bbcd022",
+							"label": "login/register"
+						}
 					}
 				]
 			}
