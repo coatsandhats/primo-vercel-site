@@ -8127,7 +8127,7 @@ function create_fragment$5(ctx) {
 					"size": 11
 				},
 				image: { "alt": "", "url": "" },
-				title: "cohat",
+				title: "LC℅ at cohat",
 				description: "Downstream hosting of cohat.net"
 			}
 		});
@@ -8141,7 +8141,7 @@ function create_fragment$5(ctx) {
 					"size": 11
 				},
 				image: { "alt": "", "url": "" },
-				title: "cohat",
+				title: "LC℅ at cohat",
 				description: "Downstream hosting of cohat.net",
 				logo: {
 					"image": {
@@ -8190,7 +8190,7 @@ function create_fragment$5(ctx) {
 					"size": 11
 				},
 				image: { "alt": "", "url": "" },
-				title: "cohat",
+				title: "LC℅ at cohat",
 				description: "Downstream hosting of cohat.net",
 				heading: "test email please ignore",
 				form: {
@@ -8237,7 +8237,7 @@ function create_fragment$5(ctx) {
 					"url": "https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1684272112827handeye.jpg",
 					"size": 104
 				},
-				title: "cohat",
+				title: "LC℅ at cohat",
 				description: "Downstream hosting of cohat.net",
 				superhead: "JUNE 3, 2023 ",
 				heading: "SUPROFOR.NET"
@@ -8253,7 +8253,7 @@ function create_fragment$5(ctx) {
 					"size": 11
 				},
 				image: { "alt": "", "url": "" },
-				title: "cohat",
+				title: "LC℅ at cohat",
 				description: "Downstream hosting of cohat.net"
 			}
 		});
