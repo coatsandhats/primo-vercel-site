@@ -313,6 +313,149 @@
             }
         }
 
+        .svelte-17p2dgj.svelte-17p2dgj {
+            position: relative;
+            z-index: 1
+        }
+
+        .section-container.svelte-17p2dgj.svelte-17p2dgj {
+            display: grid;
+            gap: 3.5rem;
+            max-width: var(--inner-max-width);
+            padding-block: 5rem;
+            position: relative
+        }
+
+        .headline.svelte-17p2dgj.svelte-17p2dgj {
+            font-size: clamp(2rem, 10vw, 5rem);
+            line-height: 1;
+            letter-spacing: -0.04rem;
+            font-weight: 700;
+            text-align: center;
+            text-wrap: balance
+        }
+
+        form.svelte-17p2dgj.svelte-17p2dgj {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            max-width: 400px;
+            justify-self: center
+        }
+
+        form.svelte-17p2dgj label.svelte-17p2dgj {
+            flex: 1
+        }
+
+        form.svelte-17p2dgj label input.svelte-17p2dgj {
+            width: 100%;
+            padding: 0.4rem 0.75rem;
+            outline-color: transparent;
+            transition: 0.1s outline-color;
+            border: 1.5px solid var(--border-color, #eee);
+            font-weight: 300;
+            border-radius: 0.25rem
+        }
+
+        form.svelte-17p2dgj label input.svelte-17p2dgj:focus {
+            outline-color: var(--color-accent, rebeccapurple)
+        }
+
+        .message.svelte-17p2dgj.svelte-17p2dgj {
+            text-align: center;
+            background: var(--background, white);
+            padding: 1rem;
+            box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 0.25rem
+        }
+
+        .message.error.svelte-17p2dgj.svelte-17p2dgj {
+            border: 2px solid red
+        }
+
+        .graphic.svelte-17p2dgj.svelte-17p2dgj {
+            position: absolute;
+            height: 100px;
+            z-index: -1
+        }
+
+        .graphic.left.svelte-17p2dgj.svelte-17p2dgj {
+            bottom: 20%;
+            -webkit-animation: svelte-17p2dgj-left-float 8s infinite alternate;
+            animation: svelte-17p2dgj-left-float 8s infinite alternate
+        }
+
+        .graphic.right.svelte-17p2dgj.svelte-17p2dgj {
+            top: -5%;
+            right: 10%;
+            -webkit-animation: svelte-17p2dgj-right-float 8s infinite alternate;
+            animation: svelte-17p2dgj-right-float 8s infinite alternate
+        }
+
+        .graphic.bottom.svelte-17p2dgj.svelte-17p2dgj {
+            top: 50%;
+            right: 10%;
+            -webkit-animation: svelte-17p2dgj-bottom-float 8s infinite alternate;
+            animation: svelte-17p2dgj-bottom-float 8s infinite alternate
+        }
+
+        @media(prefers-reduced-motion) {
+            .graphic.svelte-17p2dgj.svelte-17p2dgj {
+                -webkit-animation: none;
+                animation: none
+            }
+        }
+
+        @-webkit-keyframes svelte-17p2dgj-left-float {
+            to {
+                rotate: 5deg;
+                transform: translateX(20px)
+            }
+        }
+
+        @keyframes svelte-17p2dgj-left-float {
+            to {
+                rotate: 5deg;
+                transform: translateX(20px)
+            }
+        }
+
+        @-webkit-keyframes svelte-17p2dgj-right-float {
+            to {
+                rotate: -20deg;
+                transform: translateX(-20px)
+            }
+        }
+
+        @keyframes svelte-17p2dgj-right-float {
+            to {
+                rotate: -20deg;
+                transform: translateX(-20px)
+            }
+        }
+
+        @-webkit-keyframes svelte-17p2dgj-bottom-float {
+            from {
+                rotate: 50deg
+            }
+
+            to {
+                rotate: -50deg;
+                transform: translateX(40px)
+            }
+        }
+
+        @keyframes svelte-17p2dgj-bottom-float {
+            from {
+                rotate: 50deg
+            }
+
+            to {
+                rotate: -50deg;
+                transform: translateX(40px)
+            }
+        }
+
         #discourse-comments.svelte-1eiqqmz {
             height: 100%
         }
@@ -347,12 +490,35 @@
                     <nav class="svelte-fok53m"><a class="link svelte-fok53m" href="https://ver.cohat.net/about">About (Excalidraw)</a><a class="link svelte-fok53m" href="https://den.cohat.net/">GARDEN</a><a class="link svelte-fok53m" href="https://meta.suprofor.net/">SUPROFOR.NET</a><a class="link svelte-fok53m" href="https://meta.suprofor.net/session/sso_provider?sso=bm9uY2U9MTIzNDUmcmV0dXJuX3Nzb191cmw9aHR0cHM6Ly92ZXIuY29oYXQubmV0&amp;sig=def97d4056dea027d86b245cf392fd79cd0f5ee63d6fcc55951877ba9bbcd022">login/register</a></nav>
                 </div>
                 <div class="mobile-nav svelte-fok53m"><a href="/" class="logo svelte-fok53m">cohat.net</a>
-                    <button id="open" aria-label="Open mobile navigation"></button>
+                    <button id="open" aria-label="Open mobile navigation"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="30" height="30" viewBox="0 0 24 24" class="iconify iconify--eva"><!-- HTML_TAG_START -->
+                            <g id="iconifySvelte0">
+                                <g id="iconifySvelte1">
+                                    <g id="iconifySvelte2" fill="currentColor">
+                                        <rect width="18" height="2" x="3" y="11" rx=".95" ry=".95" />
+                                        <rect width="18" height="2" x="3" y="16" rx=".95" ry=".95" />
+                                        <rect width="18" height="2" x="3" y="6" rx=".95" ry=".95" />
+                                    </g>
+                                </g>
+                            </g><!-- HTML_TAG_END -->
+                        </svg></button>
                 </div>
             </header>
         </div>
     </div>
     <div class="section svelte-17p2dgj" id="section-2e84bb26-628e-4ee3-bcbc-66ec89da536f">
+        <div class="component svelte-17p2dgj">
+            <section class="section-container svelte-17p2dgj">
+                <h1 class="headline svelte-17p2dgj">test email please ignore</h1>
+                <form class="svelte-17p2dgj"><label class="svelte-17p2dgj"><input required name="email" type="text" placeholder="Email address" class="svelte-17p2dgj"></label>
+                    <button class="button svelte-17p2dgj" type="submit">Subscribe</button>
+                </form>
+                <img class="graphic left svelte-17p2dgj" src="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1518050708280dont.jpg" alt="space man">
+                <img class="graphic right svelte-17p2dgj" src="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1682282260046sdprof12.PNG" alt="satellite">
+                <img class="graphic bottom svelte-17p2dgj" src="https://diaqxcyesjfmhgjflvsp.supabase.co/storage/v1/object/public/images/55c9b4e4-eb18-4e48-8db0-e942e7a3e716/1683325076627m1.png" alt="blue man">
+            </section>
+        </div>
+    </div>
+    <div class="section svelte-17p2dgj" id="section-a5aa5bc8-8f7b-4671-a5c2-93c49eabf6b3">
         <div class="component svelte-17p2dgj">
             <section class="section-container svelte-17p2dgj">
                 <h1 class="headline svelte-17p2dgj">test email please ignore</h1>
